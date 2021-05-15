@@ -1,6 +1,47 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  line-height: normal;
+}
+
 html,
 body,
 #root,
 #root > div {
   height: 100%;
+}
+
+#HEADER {
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid gray;
+}
+
+#HEADER-AREA {
+  width: 1024px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#HEADER-AREA img {
+  width: 128px;
+}
+
+#BODY {
+  height: 100vh;
+  width: 1024px;
+  margin: 0 auto;
+}
+
+#BODY > h1 {
+  margin-top: 16px;
+  padding-bottom: 24px;
+}
+
+#FOOTER {
+  height: 200px;
+  background-color: rgb(230, 230, 230);
 }
